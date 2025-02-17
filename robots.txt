@@ -1,4 +1,11 @@
 User-agent: *
 Disallow: /admin/
-Disallow: /cart/
-Disallow: /checkout/
+Disallow: /checkout
+Disallow: /cart
+
+User-agent: Googlebot-Image
+Disallow: /assets/catalog/
+
+Sitemap: https://www.vibeluv.com/sitemap_4439634.xml
+Sitemap: https://store.vibeluv.com/sitemap_4439638.xml
+Sitemap: https://blog.vibeluv.com/atom.xml
